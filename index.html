@@ -58,7 +58,7 @@
   </div>
 
   <script>
-    fetch('https://tms.csucarig.edu.ph/newsjson')
+    fetch('https://cors-anywhere.herokuapp.com/https://tms.csucarig.edu.ph/newsjson')
       .then(response => response.json())
       .then(data => {
         const container = document.getElementById('news-container');
